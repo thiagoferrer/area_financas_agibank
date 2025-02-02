@@ -1,4 +1,4 @@
-//Código Java para calcular o ROI:
+//Código Java para calcular o ROI (Return on Investment):
 package pessoal_exercicios;
 
 import java.util.Scanner;
