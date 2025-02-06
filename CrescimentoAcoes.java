@@ -1,7 +1,7 @@
 /*Ex02 - Receba os valores de ações de um ativo referente a 5 dias de negociação.
 Calcule o crescimento percentual em 5 dias.
 Considere: crescimento diário = ((valor atual - valor anterior) / valor anterior).*/
-package s3exerciciosVetores;
+package s3exercicios;
 
 import java.util.Scanner;
 

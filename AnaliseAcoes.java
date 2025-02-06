@@ -10,7 +10,7 @@
 * Saída Esperada:
 * Dias de alta: 7
 * Dias de queda: 2*/
-package s3exerciciosVetores;
+package s3exercicios;
 
 public class AnaliseAcoes {
     public static void main(String[] args) {

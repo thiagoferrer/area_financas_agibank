@@ -3,7 +3,7 @@ O programa deve:
 - Identificar se o mercado está em uma tendência de alta (preços aumentam continuamente por pelo menos 3 dias consecutivos.)
 - Caso exista uma tendência de alta, exibir os dias que compõem essa tendência (índices do vetor)
 - Caso contrário, exibir "Sem tendência de alta identificada."*/
-package s3exerciciosVetores;
+package s3exercicios;
 
 import java.util.Scanner;
 

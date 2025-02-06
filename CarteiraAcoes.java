@@ -1,4 +1,4 @@
-package s3exerciciosVetores;
+package s3exercicios;
 
 public class CarteiraAcoes {
     public static void main(String[] args) {

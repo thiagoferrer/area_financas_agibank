@@ -4,7 +4,7 @@ Entrada de exemplo:
 Preços: {100.0, 101.5, 99.0, 102.0, 105.0}
 Saída Esperada:
 Variações diárias: {1.50%, -2.46%, 3.03%, 2.94%}*/
-package s3exerciciosVetores;
+package s3exercicios;
 
 import java.text.DecimalFormat;
 

@@ -1,4 +1,4 @@
-package s3exerciciosVetores;
+package s3exercicios;
 
 public class ImpostoGanhosCapital {
     public static void main(String[] args) {

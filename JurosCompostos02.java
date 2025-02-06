@@ -5,30 +5,32 @@ onde  n é o número de meses .
 saída esperada:
 valores futuros: {1020.00, 1040.40, 1061.21, 1082.43, 1104.08, 1126.16}
 sem o codigo. somente a sintaxe bem detalhada e explicada*/
-package s3exerciciosVetores;
-
-import java.util.ArrayList;
-import java.util.List;
+package s3exercicios;
 
 public class JurosCompostos02 {
     public static void main(String[] args) {
 
+        //Declaração Variáveis
         double valorInicial = 1000.00; //Capital Inicial (p)
-        double taxaJuros = 0.02;//Juros Mensal 2% (r)
-        double numeroMeses = 6;//Número de meses (n)
+        double taxaJuros = 0.02;       //Taxa de Juros Mensal 2% (r)
+        int numeroMeses = 6;        //Número de meses (n)
 
-        List<Double> valoresFuturos = new ArrayList<>();
+        //Armazenar os valores
+        double[]  valoresFuturos = new double[numeroMeses];
 
-        for (int mes = 1; mes <= numeroMeses; mes++){
-            double valorFuturo = valorInicial * Math.pow(1 + taxaJuros, mes);
+        //Loop - calcular
+        for (int i = 0; i < numeroMeses; i++){
+            valoresFuturos[i] = valorInicial * Math.pow(1 + taxaJuros, i + 1);
 
-            valorFuturo = Math.round(valorFuturo * 100.0) / 100.0;
+            //Arredondamento
+            valoresFuturos[i] =Math.round(valoresFuturos[i] * 100) / 100.0;
 
-            valoresFuturos.add(valorFuturo);
         }
+
+        //Exibição
         System.out.println("Valores Futuros: ");
-        for (double valor : valoresFuturos){
-            System.out.println(valor);
+        for (int i =0; i < valoresFuturos.length; i++){
+            System.out.println(valoresFuturos[i]);
         }
     }
 }

@@ -7,7 +7,7 @@ Entrada de Exemplo:
 Preços: {100.0, 102.0, 101.0,  103.0, 105.0, 106.0, 108.0}
 Saída Esperada:
 Média móvel dos últimos 3 dias: 106.33*/
-package s3exerciciosVetores;
+package s3exercicios;
 
 import java.util.Scanner;
 
