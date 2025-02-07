@@ -1,4 +1,4 @@
-/*Dada uma matriz mxn, calcule e exiba a matriz transposta.
+/*Dada uma matriz mxn, calcule e exiba a matriz transporta.
  * Exemplo de Entrada:
  * 1 2 3
  * 4 5 6
